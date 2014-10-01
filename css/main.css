@@ -5,9 +5,12 @@ body {
     font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
+    background-image: url(../img/background.jpg);
+    background-size: cover; /* covers the entire background */
+    background-attachment: fixed; /*don't scroll it*/
+
 }
 
-/* this applies all h1 elements */
 h1, h2, h3 { 
 	font-family: Raleway, Helvetica, sans-serif;
 	font-weight: 400;
@@ -21,10 +24,20 @@ h2 {
 	font-size: 150%
 }
 
-header	{
-	background-color: #CCCCCC;
+header {
+	background-color: rgba(70,70,70,0.5);
+}
+
+
+header p {
+	font-size: 120%;
+	color: #FFF;
 }
 
 footer	{
 	background-color: #FFFFF2;
+}
+
+main {
+	margin-left: 25%;
 }
